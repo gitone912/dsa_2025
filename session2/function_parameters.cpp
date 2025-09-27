@@ -12,8 +12,8 @@ void bday(int age){
 }
 
 int main(){
-    greet("neha");
-    greet("pagli shagufta");
+    string name="neha";
+    greet(name);
     bday(18);
 
     return 0;

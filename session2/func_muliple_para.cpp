@@ -3,14 +3,14 @@
 using namespace std;
 
 
-void greetBday(string name, int age, int year=2006){
+void greetBday(string name, int age){
     cout<<"happy bday gadhi"<<" "<<name<<endl;
-    cout<<"happiest"<<" "<<age<<" th"<<" bday "<< year<<endl;
+    cout<<"happiest"<<" "<<age<<" th"<<" bday "<<endl;
 } 
 
 
 int main(){
-    greetBday("neha",19,2025);
+    greetBday("neha",78);
     return 0;
 
 }

@@ -3,11 +3,12 @@ using namespace std;
 
 int add(int a, int b) {
     int c = a+b;
-    return a+b;
+    return c;
 }
 
 string fullName(string first, string last) {
-    return first + " " + last + " is a good person";
+    string final=first + " " + last + " is a good person";
+    return final;
 }
 
 int main() {
